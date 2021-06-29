@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "299767656579",
+    "firebase_url": "https://kit305-98fba-default-rtdb.firebaseio.com",
+    "project_id": "kit305-98fba",
+    "storage_bucket": "kit305-98fba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299767656579:android:2a8e28ca2bb19a1951abb6",
+        "android_client_info": {
+          "package_name": "au.edu.utas.kit305.tutorial05"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299767656579-36tmokg9mp75c1ifc71eima756nskmko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn7ApGjO7nu-GC9DA3vNcFz1KDpC3_-2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299767656579-36tmokg9mp75c1ifc71eima756nskmko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299767656579:android:969acc50b53edbca51abb6",
+        "android_client_info": {
+          "package_name": "au.edu.utas.username.assignment2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299767656579-36tmokg9mp75c1ifc71eima756nskmko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn7ApGjO7nu-GC9DA3vNcFz1KDpC3_-2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299767656579-36tmokg9mp75c1ifc71eima756nskmko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299767656579:android:b2ffec0b07e8b3c251abb6",
+        "android_client_info": {
+          "package_name": "au.edu.utas.username.myfirstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299767656579-36tmokg9mp75c1ifc71eima756nskmko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn7ApGjO7nu-GC9DA3vNcFz1KDpC3_-2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299767656579-36tmokg9mp75c1ifc71eima756nskmko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

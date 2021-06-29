@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/test"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:id="@+id/InsidePage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+
+        <TextView
+            android:id="@+id/stuName"
+            android:layout_width="95dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="7dp"
+            android:layout_toStartOf="@+id/grade"
+            android:text="Student name"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stuId"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stuName"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="333dp"
+            android:text="Student ID" />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="113dp"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="15dp"
+            android:checked="true"
+            android:onClick="onCheckboxClicked"
+            android:text="attendance"
+            android:textColorHighlight="#2196F3" />
+
+        <Spinner
+            android:id="@+id/gradeSpinner"
+            android:layout_width="147dp"
+            android:layout_height="54dp"
+            android:layout_alignBottom="@+id/stuId"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginBottom="-3dp"
+            android:layout_toStartOf="@+id/checkbox"
+            android:layout_toEndOf="@+id/stuName" />
+
+        <TextView
+            android:id="@+id/gradeText"
+            android:layout_width="97dp"
+            android:layout_height="21dp"
+            android:layout_alignBottom="@+id/stuName"
+            android:layout_marginStart="51dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="24dp"
+            android:layout_toStartOf="@+id/checkbox"
+            android:layout_toEndOf="@+id/stuName"
+            android:text="Grade" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
+
